@@ -1,4 +1,4 @@
-def add(a, b):
+!pytestdef add(a, b):
     return a + b
 
 
@@ -12,5 +12,5 @@ def subtract(a, b):
 
 
 # uncomment the following test in step 5
-#def test_subtract():
-#    assert subtract(2, 3) == -1
+def test_subtract():
+    assert subtract(2, 3) == -1
